@@ -67,7 +67,7 @@ html {
 .Aboutme {
   color: white;
   text-decoration: none;
-  font-size: 55px;
+  font-size: 50px;
   font-family: "Lemon/Milk";
   src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
   src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
@@ -82,7 +82,7 @@ html {
       format("svg");
   display: flex;
   margin-left: 550px;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 p {
@@ -103,12 +103,12 @@ p {
       format("svg");
   display: flex;
   margin-left: 550px;
-  margin-right: 560px;
-  padding-top: 20px;
+  margin-right: 670px;
+  padding-top: 40px;
 }
 
-.sign{
+.sign {
   margin-left: 650px;
   margin-right: 600px;
-  padding-top: 20px;
+  padding-top: 30px;
 }

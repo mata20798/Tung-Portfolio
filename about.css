@@ -81,7 +81,7 @@ html {
     url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
       format("svg");
   display: flex;
-  margin-left: 550px;
+  margin-left: 600px;
   padding-top: 70px;
 }
 
@@ -102,13 +102,13 @@ p {
     url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
       format("svg");
   display: flex;
-  margin-left: 550px;
-  margin-right: 670px;
+  margin-left: 600px;
+  margin-right: 640px;
   padding-top: 40px;
 }
 
 .sign {
-  margin-left: 650px;
+  margin-left: 700px;
   margin-right: 600px;
   padding-top: 30px;
 }

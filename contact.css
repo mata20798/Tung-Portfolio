@@ -57,28 +57,29 @@ nav li {
   margin: 0;
   padding: 30px;
 }
-html {
-    font-size: 70%;
-    background: url('Image/Contact.jpg');
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+.contact-wrapper {
+  font-size: 70%;
+  background: url("Image/Contact.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.contact3{
+.contact3 {
   font-size: 100px;
   margin: 30px;
   position: absolute;
   bottom: 0px;
 }
-.contact2{
+.contact2 {
   font-size: 100px;
   margin: 30px;
   position: absolute;
   bottom: 100px;
 }
-.contact1{
+.contact1 {
   font-size: 100px;
   margin: 30px;
   position: absolute;
@@ -96,4 +97,20 @@ html {
 .contact3:hover {
   font-size: 120px;
   transition: 0.4s ease;
+}
+
+/* Responsive queries */
+@media only screen and (max-width: 1000px) {
+  .contact1 {
+    font-size: 50px;
+    transition: 0.3s ease;
+  }
+  .contact2 {
+    font-size: 50px;
+    transition: 0.3s ease;
+  }
+  .contact3 {
+    font-size: 50px;
+    transition: 0.3s ease;
+  }
 }

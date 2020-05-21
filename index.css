@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 70%;
-}
-
 .index-wrapper {
   background: url("Image/homepage-01.jpg");
   height: 100vh;
@@ -16,7 +12,12 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.menu {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100vw;
+}
 .logo {
   height: 120px;
   width: 120px;
@@ -65,4 +66,632 @@ nav li {
   float: left;
   margin: 0;
   padding: 30px;
+}
+
+.about-wrapper {
+  background: url("Image/about.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-header {
+  color: white;
+  text-decoration: none;
+  font-size: 55px;
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  padding-top: 80px;
+}
+
+p {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  display: block;
+  padding-top: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.about-sign {
+  padding-top: 20px;
+  height: 140px;
+  width: 120px;
+}
+
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  height: auto;
+  width: 30px;
+  padding: 30px 30px;
+  flex: 1 0 33.33333%;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-pic1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: lightblue;
+  cursor: pointer;
+}
+
+.overlay-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay1 {
+  position: relative;
+}
+
+.container-overlay1:hover .overlay-pic1 {
+  opacity: 1;
+}
+
+.overlay-pic2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: black;
+  cursor: pointer;
+}
+
+.overlay-pic2-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay2 {
+  position: relative;
+}
+
+.container-overlay2:hover .overlay-pic2 {
+  opacity: 1;
+}
+
+.overlay-pic3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: rgb(2, 24, 44);
+  cursor: pointer;
+}
+
+.overlay-pic3-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay3 {
+  position: relative;
+}
+
+.container-overlay3:hover .overlay-pic3 {
+  opacity: 1;
+}
+
+.overlay-pic4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: burlywood;
+  cursor: pointer;
+}
+
+.overlay-pic4-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay4 {
+  position: relative;
+}
+
+.container-overlay4:hover .overlay-pic4 {
+  opacity: 1;
+}
+
+.overlay-pic5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: black;
+  cursor: pointer;
+}
+
+.overlay-pic5-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay5 {
+  position: relative;
+}
+
+.container-overlay5:hover .overlay-pic5 {
+  opacity: 1;
+}
+
+.overlay-pic6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: black;
+  cursor: pointer;
+}
+
+.overlay-pic6-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay6 {
+  position: relative;
+}
+
+.container-overlay6:hover .overlay-pic6 {
+  opacity: 1;
+}
+
+.overlay-pic7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: burlywood;
+  cursor: pointer;
+}
+
+.overlay-pic7-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay7 {
+  position: relative;
+}
+
+.container-overlay7:hover .overlay-pic7 {
+  opacity: 1;
+}
+
+.overlay-pic8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: black;
+  cursor: pointer;
+}
+
+.overlay-pic8-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay8 {
+  position: relative;
+}
+
+.container-overlay8:hover .overlay-pic8 {
+  opacity: 1;
+}
+
+.overlay-pic9 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background: palevioletred;
+  cursor: pointer;
+}
+
+.overlay-pic9-text {
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  font-size: 23px;
+  color: white;
+  padding: 5px 10px;
+}
+
+.container-overlay9 {
+  position: relative;
+}
+
+.container-overlay9:hover .overlay-pic9 {
+  opacity: 1;
+}
+
+.contact-wrapper {
+  font-size: 70%;
+  background: url("Image/Contact.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact3 {
+  font-size: 70px;
+  margin: 30px;
+  position: absolute;
+  bottom: 0px;
+  text-decoration: underline;
+}
+.contact2 {
+  font-size: 70px;
+  margin: 30px;
+  position: absolute;
+  bottom: 100px;
+  text-decoration: underline;
+}
+.contact1 {
+  font-size: 70px;
+  margin: 30px;
+  position: absolute;
+  bottom: 200px;
+  text-decoration: underline;
+}
+
+.contact1:hover {
+  font-size: 80px;
+  transition: 0.3s ease;
+}
+.contact2:hover {
+  font-size: 80px;
+  transition: 0.3s ease;
+}
+.contact3:hover {
+  font-size: 80px;
+  transition: 0.3s ease;
+}
+
+.project-wrapper {
+  padding-top: 150px;
+}
+
+/* PROJECT HTML */
+.header-project {
+  color: black;
+  text-decoration: underline;
+  font-size: 45px;
+  font-family: "Lemon/Milk";
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot");
+  src: url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/67137b5f6928edc941186baaab5a664b.svg#Lemon/Milk")
+      format("svg");
+  padding-top: 45px;
+  padding-left: 70px;
+  text-align: left;
+}
+.project-detail-wrapper {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.project-big-img {
+  height: auto;
+  width: 100%;
+  padding: 0 100px 100px 100px;
+}
+
+/* Responsive queries */
+@media only screen and (max-width: 1000px) {
+  .contact1 {
+    font-size: 50px;
+    transition: 0.3s ease;
+  }
+  .contact2 {
+    font-size: 50px;
+    transition: 0.3s ease;
+  }
+  .contact3 {
+    font-size: 50px;
+    transition: 0.3s ease;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .project-wrapper {
+    padding-top: 80px;
+  }
+
+  .img-container {
+    height: auto;
+    width: 30px;
+    padding: 30px 30px;
+    flex: 1 60%;
+  }
+
+  .logo {
+    height: 60px;
+    width: 60px;
+    margin-left: 2px;
+    padding-bottom: 2px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  nav li {
+    padding: 15px 5px;
+  }
+
+  .link:hover {
+    font-size: 16px;
+    transition: 0.4s ease;
+  }
+
+  .contact1 {
+    font-size: 20px;
+    bottom: 70px;
+    margin-left: 20px;
+  }
+
+  .contact2 {
+    font-size: 20px;
+    bottom: 40px;
+    margin-left: 20px;
+  }
+
+  .contact3 {
+    font-size: 20px;
+    bottom: 10px;
+    margin-left: 20px;
+  }
+
+  .contact1:hover {
+    font-size: 20px;
+    transition: 0.4s ease;
+  }
+  .contact2:hover {
+    font-size: 20px;
+    transition: 0.4s ease;
+  }
+  .contact3:hover {
+    font-size: 20px;
+    transition: 0.4s ease;
+  }
+
+  .about-section {
+    padding-top: 100px;
+  }
+
+  .about-header {
+    font-size: 40px;
+    padding-top: 80px;
+  }
+
+  .about-section p {
+    font-size: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .header-project {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .project-big-img {
+    height: auto;
+    width: 100%;
+    padding: 0 20px 30px 20px;
+  }
+  .project-detail-wrapper {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .contact-wrapper {
+    background: url("/Image/background-web/background-02.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .index-wrapper {
+    background: url("/Image/background-web/background-01-01.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
